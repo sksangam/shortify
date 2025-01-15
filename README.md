@@ -33,7 +33,7 @@ Shortify is a full-stack web application that allows users to shorten long URLs,
 
    ```bash
    git clone https://github.com/sksangam/url-shortner.git
-   cd url-shortner/backend
+   cd ../backend
    ```
 
 2. Configure the database connection in `application.properties`:
@@ -64,7 +64,7 @@ Shortify is a full-stack web application that allows users to shorten long URLs,
    npm install
    ```
 
-3. Configure the backend API URL in .env:
+3. Configure the backend API URL in `.env`:
 
    ```bash
    REACT_APP_API_URL=http://localhost:8080/api
