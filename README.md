@@ -20,10 +20,10 @@ Shortify is a full-stack web application that allows users to shorten long URLs,
 
 ## Prerequisites
 
-- JDK 21 or higher for running the Spring Boot backend.
-- Node.js and npm/yarn for building and running the React frontend.
-- PostgreSQL database for local or cloud-based deployment.
-- Docker (optional, for containerized environment).
+- **JDK 21** or higher for running the Spring Boot backend.
+- **Node.js (v20 or above)** and npm/yarn for building and running the React frontend.
+- **PostgreSQL** database for local or cloud-based deployment.
+- **Docker** (optional, for containerized environment).
 
 ## Installation
 
@@ -32,7 +32,7 @@ Shortify is a full-stack web application that allows users to shorten long URLs,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sksangam/url-shortner.git
+   git clone https://github.com/sksangam/shortify.git
    cd ../backend
    ```
 
@@ -55,7 +55,7 @@ Shortify is a full-stack web application that allows users to shorten long URLs,
 1. Navigate to the frontend directory:
 
    ```bash
-   cd ../frontend
+   cd /frontend
    ```
 
 2. Install dependencies:
@@ -74,3 +74,37 @@ Shortify is a full-stack web application that allows users to shorten long URLs,
    ```bash
    npm start
    ```
+   The application will be available at http://localhost:3000.
+
+## Folder Structure
+```
+shortify-frontend/
+├── public/            # Static assets
+├── src/               # React source code
+│   ├── components/    # Reusable React components (e.g., Navbar, Footer)
+│   ├── pages/         # Page components (e.g., LandingPage, AboutPage)
+│   ├── services/      # API services to interact with the backend
+│   ├── App.js         # Main entry point for the React app
+│   └── index.js       # Renders the React app into the DOM
+├── package.json       # Project metadata and dependencies
+└── tailwind.config.js # Tailwind CSS configuration
+```
+
+
+## Contributing
+We welcome contributions to improve the Shortify app! Please follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+For queries, feel free to contact:
+- **Developer**: Subhash Kumar
+- **Email**: [subhashsangam@gmail.com]
+
+---
